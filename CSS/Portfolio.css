@@ -762,7 +762,8 @@ button:hover,
 .form-container .btn:hover {
     color: #031c62;
     /*this makes the text in the buttons white when hovered over*/
-    background-color: #747c86/*the background of the button changes to black when hovered over*
+    background-color: #747c86;
+    /*the background of the button changes to black when hovered over*
     transition-duration: 1s; /*this makes the transition last 1s*/
     -webkit-animation-duration: 1s;
     /*for safari 4.0 - 8.0*/
