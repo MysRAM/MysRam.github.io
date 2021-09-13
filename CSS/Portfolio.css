@@ -112,7 +112,7 @@ p:hover {
 .center:hover {
     transition: transform 2s;
     /* This makes the transform effect last 2 seconds */
-    transform: scale(1.1);
+    transform: scale(1.05);
     /* This makes the elements with class "center" increase in size by 1.1 when hovered over */
 }
 
@@ -133,7 +133,8 @@ a {
 
 q {
     font-family: cocktail-shaker, sans-serif;
-    font-style: normal;
+    text-align: justify;
+    font-style: italic;
     font-weight: 500;
 }
 
@@ -866,4 +867,4 @@ form {
 }
 
 
-/***** END OF CONTACT FORM STYLING *****/
+/***** END OF CONTACT FORM STYLING *****
