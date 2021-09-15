@@ -148,7 +148,7 @@ img {
     /* Gives all images slightly rounded corners */
     max-width: 100%;
     /* Ensures all images stay within the width of their container */
-    height: 340px;
+    height: 640px;
     /* Sets the height of all images */
     display: block;
     /* By specifying block display we can ensure our images are able to be centered */
