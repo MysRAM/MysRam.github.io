@@ -3,6 +3,9 @@
 
 /*Affects entire document*/
 
+
+/*added code*/
+
 html {
     scroll-behavior: smooth;
     /*This ensures that the page scrolling is smooth when the 
@@ -152,7 +155,8 @@ img {
     /* Sets the height of all images */
     display: block;
     /* By specifying block display we can ensure our images are able to be centered */
-    margin: auto auto auto auto;
+    margin-left: auto;
+    margin-right: auto;
     /* this centers all images */
 }
 
@@ -239,14 +243,14 @@ footer {
     /* This ensures that other text will be displayed on the same line or row, instead of a new line */
     color: #aeb3b6;
     /* This is the font color for text on our navbar */
-    padding: .75vw 1vw;
+    padding: 14px 16px;
     /* This adds padding around our text */
     text-decoration: none;
     /* This gets rid of the underlines under the text on our navbar */
     font-family: 'Cinzel', serif;
     ;
     /* This specifies the font family for text on our navbar */
-    font-size: 2vw;
+    font-size: 20px;
     /* This specifies the font size for text on our navbar */
     text-align: center;
     /* This centers the text within its container */
@@ -254,7 +258,7 @@ footer {
     /* This sets the text relative to its normal positioning, allowing us to use the animation below */
     -webkit-animation: moveNavText 5.75s;
     /* Animation for Safari 4.0 - 8.0 */
-    animation: cue-region() 5.75s;
+    animation: moveNavText 5.75s;
     /* Applies the moveNavText animation for 5.75s */
 }
 
