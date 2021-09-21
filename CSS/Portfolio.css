@@ -476,7 +476,7 @@ footer {
 .text {
     color: white;
     padding: 1vw;
-    position: absolute;
+    position: relative;
     /* this ensures the text is positioned within the image */
     bottom: 0;
     /* this property sets the text at the bottom of the image */
